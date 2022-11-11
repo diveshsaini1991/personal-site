@@ -6,6 +6,7 @@ body{
 }
 
 
+
 .main_bg{
   background-color: #F1F7E7;
   position: relative;
@@ -107,13 +108,23 @@ a{
   text-decoration: none;
 
 }
-a:hover{
-  color: green;
+btn:hover{
+  color: #EDE4E0;
 }
 .copy{
   color: lightgreen;
 }
+.fo:hover{
+  color: green;
+}
+.hlojii{
+  border-style: none;
+  border-top-style: dotted;
+  width: 6%;
+  border-color: lightgray;
+  border-width: 5px;
 
+}
 .btn {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
