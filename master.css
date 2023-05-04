@@ -5,10 +5,34 @@ body{
   color: #40514e;
 }
 
+.nav{
+  position: fixed;
+  background-color: #00C897;
+  z-index: 1;
+  border-bottom: solid 1px lightgray;
+}
+
+.nav table{
+  padding-left: 900px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav a{
+
+  text-decoration: none;
+  color: lightgreen;
+}
+.nav a:hover{
+  color: green;
+}
+
+
+
 
 
 .main_bg{
-  background-color: #F1F7E7;
+  background-color: #F1F7E7 ;
   position: relative;
   width: 100%;
   padding-top: 5%;
@@ -20,6 +44,7 @@ h1{
   font-family: "Sofia", sans-serif;
   font-size: 3.125rem;
   color:  #00C897;
+
 }
 
 .cloud2{
@@ -44,6 +69,7 @@ top: 21%;
 .a{
   font: italic bold 1.25rem/1.875rem Georgia, serif;
   color:  #00C897;
+
 }
 p{
   font: italic bold 1rem/1.875rem Georgia, serif;
@@ -88,6 +114,7 @@ h3{
 }
 .mid{
   margin: 100px auto;
+  padding-top: 100px;
 }
 .intro{
   width: 30%;
